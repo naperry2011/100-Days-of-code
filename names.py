@@ -14,8 +14,17 @@ last_name = "ladylove"
 full_name = f"{first_name} {last_name}"
 print(full_name.title())
 
-# now let's put some text before the full name and have it print out so we will take the text from above and change the name and the print value
+# now let's put some text before the full name and have it print out so we will take the text from above and change the name and the print value. In the print() we wanted it to say Hello, Jasmin Perry! for that function to run correctly in print(f"<some text>{the variables you created}")
 first_name = "jasmin"
 last_name = "perry"
 full_name = f"{first_name} {last_name}"
 print(f"Hello, {full_name.title()}!")
+
+
+# now we're going to have the text above be a message variable then have print(message)
+
+first_name = "kelli"
+last_name = "perry"
+full_name = f"{first_name} {last_name}"
+message = (f"Hello, {full_name.title()}!")
+print(message)
