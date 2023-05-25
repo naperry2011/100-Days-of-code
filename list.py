@@ -27,4 +27,30 @@ games = ['god of war', 'spider-man', 'destiny 2']
 
 print(f"Hey, {first_name.title()} can you please grab {movies[0].title()} and can you please remember to grab {games[2].title()}. I am so serious please do not forget to grab {movies[0].upper()} and {games[2].upper()}!!! ")
 
-# the text above is my own code that I wanted to try and create and it worked!!!! Proud of me lol. But yes we made 5 variables with 2 of that variables having a list in them. In the text I made sure to not only pick up those specific items I also informed the person to make sure he grabs those same items with some extra love to it 
+# the text above is my own code that I wanted to try and create and it worked!!!! Proud of me lol. But yes we made 5 variables with 2 of that variables having a list in them. In the text I made sure to not only pick up those specific items I also informed the person to make sure he grabs those same items with some extra love to it
+
+# Changing,Adding and Removing Elements in a List
+# here we're going to replace the first item with another. So when changing an element in a list you post the variable.[the location of element] = 'the changed element'
+rappers = ['Twista', 'Snoop', 'Tupac']
+
+rappers[0] = 'Biggie'
+print(rappers[0])
+
+# Next we will be adding an element to the list
+# To add an item to an list you have to put the variable.append. append('new item') is the trigger to add an element to your list. 
+# you can also add an item in any position you want so the code for that will be <variable>.append (position, new variable)
+footballTeams = ['Eagles', 'Titans', 'Colts']
+footballTeams.insert(0, 'Patriots') #here we added an item and then put it at the beginning of the list
+footballTeams.append('Raiders') #here we added an item which would automatically be added to the end of the list
+print(footballTeams)
+print(f"Hey, {first_name.title()} didn't you tell me that your favorite team was the {footballTeams[0].title()}? Also don't you like listening to {rappers[2].title()}?")
+
+
+# Removing items using the del Statement
+# Here we deleted the element in the 1 position and added a new item to it. To remove an item you put del<variable>
+superheros = ['batman', 'flash', 'superman']
+del superheros[1] #deleted the superhero in the list in position 
+superheros.append('wonder woman') #added another item to the list that will be added towards the end. 
+print(superheros)
+
+# Removing an Item Using the pop() method
