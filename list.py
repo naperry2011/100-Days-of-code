@@ -53,4 +53,19 @@ del superheros[1] #deleted the superhero in the list in position
 superheros.append('wonder woman') #added another item to the list that will be added towards the end. 
 print(superheros)
 
-# Removing an Item Using the pop() method
+# Removing an Item Using the pop() method 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+#here where going define what the pop() element is going to be.
+
+popped_motorcycles = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycles)
+
+# Here we defined motorcycles with 3 items and printed out those three items. Then we made a variable for the pop() items to go to which is popped_motorcycles once
+# Now we will make a list of variables and make a string out of it.
+
+singers = ['John Legend', 'Bobby Brown', 'Musiq Soulchild'] #here we made a list of musical artist
+last_listened = singers.pop() # here we define the pop element with the variable of last_listened
+print(f"Hey, {first_name.title()} when was last time you listen to {last_listened.title()}?") # here we combined first name and the pop() element
