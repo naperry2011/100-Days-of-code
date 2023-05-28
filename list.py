@@ -73,3 +73,14 @@ print(f"Hey, {first_name.title()} when was last time you listen to {last_listene
 # popping() Items from any position in a list
 first_owned = motorcycles.pop(2)
 print(f"The first motorcycle I owned was a {first_owned.title()}") 
+
+# Removing an Item by Value: this is a way to take an value out by using the name of the value 
+
+xbox_games = ['Call of Duty', 'Skyrim', 'Halo', 'Ravenlok']
+xbox_games.remove('Skyrim')
+print(xbox_games)
+
+let_down = 'Halo'
+xbox_games.remove(let_down)
+print(xbox_games)
+print(f"\nThe {let_down.title()} series was the biggest disappoint of the current generation of gaming")
