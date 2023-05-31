@@ -84,3 +84,22 @@ let_down = 'Halo'
 xbox_games.remove(let_down)
 print(xbox_games)
 print(f"\nThe {let_down.title()} series was the biggest disappoint of the current generation of gaming")
+
+# Organizing a List
+
+# Sorting a List Permanently with the sort() method
+# variable.sort() will permanently put the list in abc order
+rappers = ['Loyd Banks', '50 cent', 'Tupac', 'Biggie', 'Lil Kim', 'Megan The Stallion', 'Eve']
+rappers.sort()
+print(rappers)
+
+# Variable.sort(reverse=True) will permanently put the list in reverse abc order
+rappersreverse = ['Loyd Banks', '50 cent', 'Tupac', 'Biggie', 'Lil Kim', 'Megan The Stallion', 'Eve']
+rappersreverse.sort(reverse=True)
+print(rappersreverse)
+
+# Sorting a List Temporarily with the sorted() Function
+music = ['jazz', 'rap', 'smooth jazz', 'drill', 'rock', 'metal']
+print(f"Here is the original order of the list: {music}")
+print(f"Now here is the order in abc order:")
+print(sorted(music))
