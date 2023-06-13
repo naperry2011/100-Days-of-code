@@ -26,7 +26,3 @@ for rappers in rappers: # <--- always remember to add the colon in your for loop
     print(f"Do you plan on working with any other mainstream rappers {rappers.title()}?")
 print("I do appreciate you taking the time to answer my questions and I can't wait to hear the album!!") #the statement you don't want in the loop must NOT be indented!!                          
 
-# Making numerical lists
-
-for value in range(1,15): #for range() you must add a colon after and the print must be indented
-    print(value) #this print value will print the numbers 1-14 but not 15. 
