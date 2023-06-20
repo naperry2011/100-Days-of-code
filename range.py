@@ -15,3 +15,8 @@ print(squares)
 
 square_two = [value**2 for value in range(1,30)] #this does what the top does but just compressed into simple terms
 print(square_two)
+
+# slicing a list. 
+
+games = ['fable', 'starfield', 'persona 3', 'spider-man 2', 'metal gear solid remake', 'phantom blade 0']
+print(games[0:3])
