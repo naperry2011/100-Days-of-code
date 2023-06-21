@@ -19,4 +19,29 @@ print(square_two)
 # slicing a list. 
 
 games = ['fable', 'starfield', 'persona 3', 'spider-man 2', 'metal gear solid remake', 'phantom blade 0']
-print(games[0:3])
+print(games[0:3]) #this will show 0-2 but not the 3 option which is spider-man 2 
+
+
+games2 = ['person 5 royal', 'persona 4 golden', 'final fantasy 14 online', 'pokemon sword & shield', 'zelda', 'metro prime 4']
+print(games2[:3]) # without putting a starting point python will automatically start at the beginning of the list
+
+# Looping Through a Slice
+# So here we will create a list then we will have it loop and when will then print the player with a title name
+players = ['Joel', 'Mario', 'Batman', 'Master Chef', 'Kratos', 'Zeus', 'Crash']
+for player in players[:3]: # Like I've stated in the slicing a list if we don't have a statement in front of the : python will automatically read the list from the beginning
+    print(player.title())
+    
+# copying slice list
+my_foods = ['chicken tacos', 'chicken burritos', 'cookies', 'sushi']
+friends_food = my_foods[:]
+
+# Now let's add some extra food to each list
+my_foods.append('pb&j')
+friends_food.append('ribs')
+
+print("My favorite foods are:")
+print(my_foods)
+
+print("My friends favorite foods are:")
+print(friends_food)
+
