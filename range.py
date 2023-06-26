@@ -35,7 +35,7 @@ for player in players[:3]: # Like I've stated in the slicing a list if we don't 
 my_foods = ['chicken tacos', 'chicken burritos', 'cookies', 'sushi']
 friends_food = my_foods[:]
 
-# Now let's add some extra food to each list
+# Now let's add some extra food to each list. Reminder to code runs in order. If you want to add an item to the list make sure it's done prior to the print statement 
 my_foods.append('pb&j')
 friends_food.append('ribs')
 
