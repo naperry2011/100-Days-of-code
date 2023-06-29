@@ -2,7 +2,7 @@
 
 # for () loop
 magicians = ['alice', 'david', 'carolina']
-for magicians in magicians: #this is a for loop. This line tells Python to retrieve the first value from the list magicians and associate it with the variable magician. this first value is 'alice'. Python then reads it and post the first variable in the list which is 'alice' and since there are more variables in the list python will go through the entire list until it is finished. 
+for magician in magicians: #this is a for loop. This line tells Python to retrieve the first value from the list magicians and associate it with the variable magician. this first value is 'alice'. Python then reads it and post the first variable in the list which is 'alice' and since there are more variables in the list python will go through the entire list until it is finished. 
     print(magicians)
 # The concept of looping is important because it's one of the most common ways a computer automates repetitive tasks
 

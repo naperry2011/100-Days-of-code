@@ -2,21 +2,25 @@
 # Python symbols (less than or equal <=) (greater than or equal >=) (equals ==) (Not equal !=)
 # Modulo Operator (addition +) (subtraction -) (Multiplication *) (Division /)(Modulus %)(Exponent **) (// Floor Division)
 
+
+# message = input("Tell me something, and I will repeat it back to you: ")
+# print( f"Now I will respond with what you put in the input when asked. {message.upper()}")
+
 # Example
 # car.py
-cars = ['audi', 'bmw', 'subaru', 'toyota'] #list of cars
-for car in cars: # our for() loop
-    if car == 'bmw': # here we are stating if the car is == to bmw then we will have the give the print() statement below
-        print(f"Damn an individual who loves {car.upper()} and has class has stepped in the building") 
-    else: #if the the answer or the car isn't bmw then we will provide the print statement below
-        print(f"Well I guess a {car.title()} is alright but you can do better")
+
+# List of cars
+cars = ['audi', 'bmw', 'subaru', 'toyota'] 
+# Prompt for user for favorite car
+car_message = input("What's your favorite car? ")
+
+if car_message in cars:
+    print(f"{car_message.title()} is a really nice car. I'm happy to assist you with finding that vehicle for you.")
+else:
+    print("Unfortunately, we can't assist you with you car decision")
         
 
-# toppings.py
-requested_topping = 'mushrooms'
-if requested_topping != 'anchovies':
-    print("Hold the damn anchovies!!!")
-    
+
 
 # input() function pauses our program and waits for the user to enter some text. Once python receives the user's input, it assigns that input to a variable to make it convenient for you to work with 
 
@@ -31,5 +35,23 @@ if message in games: #if statement
     print("That's a phenomenal game! I'm glad you enjoyed it!!!")
 else:
     print("You need to make better decisions in your life!")
+    
+    
 
+# Now we will work with if() input() & for()
+# BannedNames.py
 
+# list of names
+banned_names = ['Lisa', 'Joe', 'David', 'Sara']
+
+# Prompt to ask for name
+name_input = input("Enter name for access please:")
+
+# Iterate through each name in the list 
+for name in banned_names:
+    # check if the name matches the input
+    if name == name_input:
+        print(f"{name.title()} you are on the banned list. No access for you.")
+        break
+else: #remember to make sure that the else: isn't indented like the if or elsif because if it is it will continue to loop through the list!
+        print(f"{name_input.title()}, your name is not on the banned list, you may proceed.")
