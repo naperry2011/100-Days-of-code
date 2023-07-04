@@ -55,3 +55,34 @@ for name in banned_names:
         break
 else: #remember to make sure that the else: isn't indented like the if or elsif because if it is it will continue to loop through the list!
         print(f"{name_input.title()}, your name is not on the banned list, you may proceed.")
+        
+        
+# Voting.py
+
+voter_age = int(input("How old are you? "))
+if voter_age <= 18:
+    print("You are not eligible to vote, please wait until next year. Please step to the side")
+else:
+    print("Go right ahead sir/ma'am you may proceed to vote. ")
+    
+# price.py
+buyer_age = int(input("Depending on your age will depend on how much I will charge you, now what's your age?"))
+if buyer_age < 4:
+    price = 0
+elif buyer_age < 18:
+    price = 15
+else:
+    price = 30
+print(f"Your total cost is ${price}. Now will that be cash or card? ")
+
+
+#Using Multiple List
+available_toppings = ['mushrooms', 'onions', 'chicken' 'olives', 'green onions', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"Adding {requested_topping}")
+    else:
+        print(f"When don't have that {requested_topping}")
