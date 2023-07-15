@@ -48,7 +48,29 @@ Throughout my learning journey, I come across various Python code snippets that 
 
 1. **Snippet 1**: Description of the code snippet and its purpose.
    ```python
-   # Python code here
+   # A dictionary in a dictionary 
+# You can nest a dictionary inside another dictionary, but your code can get complicated quickly when you do. 
+# many_users.py
+
+users = {
+    'dmason':{
+        'first': 'derrick',
+        'last': 'mason',
+        'location': 'indianapolis',
+        },
+    'jperry':{
+        'first': 'jordan',
+        'last': 'perry',
+        'location': 'atlanta',
+    },
+}
+
+for username, user_info in users.items():
+    print(f"Username: {username}")
+    full_name = f"{user_info['first']} {user_info['last']}"
+    location = user_info['location']
+    print(f"Full name: {full_name.title()}")
+    print(f"location: {location.title()}")
    ```
 
 2. **Snippet 2**: Description of the code snippet and its purpose.
