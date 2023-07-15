@@ -48,11 +48,7 @@ Throughout my learning journey, I come across various Python code snippets that 
 
 1. **Snippet 1**: Description of the code snippet and its purpose.
    ```python
-   # A dictionary in a dictionary 
-# You can nest a dictionary inside another dictionary, but your code can get complicated quickly when you do. 
-# many_users.py
-
-users = {
+  users = {
     'dmason':{
         'first': 'derrick',
         'last': 'mason',
@@ -71,6 +67,7 @@ for username, user_info in users.items():
     location = user_info['location']
     print(f"Full name: {full_name.title()}")
     print(f"location: {location.title()}")
+    
    ```
 
 2. **Snippet 2**: Description of the code snippet and its purpose.
