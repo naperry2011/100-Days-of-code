@@ -80,7 +80,7 @@ for username, user_info in users.items():
 
 In this section, I'll list the resources that have been invaluable in my Python learning process. These may include websites, tutorials, books, and online courses that have helped me gain a better understanding of Python.
 
-- [Resource 1 Name](Python-Crash-Course)
+- [Python Crash Course](Python-Crash-Course)
 
 <!-- Add more resources as you find them -->
 
