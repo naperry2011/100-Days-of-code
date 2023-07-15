@@ -73,6 +73,6 @@ I welcome feedback, suggestions, and contributions to this repository. If you sp
 
 ## Contact
 
-You can reach me via email at your.email@example.com or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile).
+You can reach me via email at nuperry2011@gmail.com or connect with me on [LinkedIn]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/nicholas-perry-7186808a/)).
 
 Let's learn Python together and enjoy the journey of coding excellence! Happy coding! 🐍❤️
