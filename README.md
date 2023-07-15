@@ -1,3 +1,5 @@
+Certainly! Here's the updated README.md with the provided code added as Snippet 1:
+
 # Python Learning Repository
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
@@ -46,15 +48,18 @@ This section contains a collection of exercises and coding challenges that I've 
 
 Throughout my learning journey, I come across various Python code snippets that illustrate specific concepts, techniques, or tricks. In this section, I'll share these snippets, along with explanations.
 
-1. **Snippet 1**: Description of the code snippet and its purpose.
-   ```python
-  users = {
-    'dmason':{
+### Snippet 1: Accessing User Information
+
+The following code demonstrates how to access user information stored in a nested dictionary.
+
+```python
+users = {
+    'dmason': {
         'first': 'derrick',
         'last': 'mason',
         'location': 'indianapolis',
-        },
-    'jperry':{
+    },
+    'jperry': {
         'first': 'jordan',
         'last': 'perry',
         'location': 'atlanta',
@@ -66,14 +71,8 @@ for username, user_info in users.items():
     full_name = f"{user_info['first']} {user_info['last']}"
     location = user_info['location']
     print(f"Full name: {full_name.title()}")
-    print(f"location: {location.title()}")
-    
-   ```
-
-2. **Snippet 2**: Description of the code snippet and its purpose.
-   ```python
-   # Python code here
-   ```
+    print(f"Location: {location.title()}")
+```
 
 <!-- Add more code snippets as you encounter them -->
 
