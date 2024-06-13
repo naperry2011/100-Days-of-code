@@ -20,3 +20,8 @@ login = input("Enter your login: ")
 language = input("Enter your native language: ")
 
 print(f"Your username is {login} and your native language is {language}")
+
+
+# Typecasting
+height_cm = float(input("Height converter: enter your height in cm: "))
+print("Your height in feet is :", height_cm / 30.48)
